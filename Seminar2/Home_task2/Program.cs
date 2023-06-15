@@ -7,10 +7,10 @@
 int number = new Random().Next(100, 1000);
 Console.WriteLine($"Случайное рандомное число: {number}");
 
-/*int FirstDigit = number / 100;
+int FirstDigit = number / 100;
 int ThirdDigit = number % 10;
 
-Console.WriteLine($"Число {number} без второго разряда {FirstDigit}{ThirdDigit}");*/
+Console.WriteLine($"Число {number} без второго разряда {FirstDigit}{ThirdDigit}");
 
-int result = ((number - number % 100) / 10 + number % 10);
-Console.WriteLine(result);
+/*int result = ((number - number % 100) / 10 + number % 10);
+Console.WriteLine(result);*/
