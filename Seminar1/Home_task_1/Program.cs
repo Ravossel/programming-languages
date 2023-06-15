@@ -6,14 +6,16 @@
 */
 
 using System;
-class Program {
+class Program
+{
     static void Main(string[] args)
     {
         Console.Write("Введите целое число: ");
         int number = int.Parse(Console.ReadLine());
         int negative_number = number * -1;
 
-        for (int i = negative_number; i <= number; i++) {
+        for (int i = negative_number; i <= number; i++)
+        {
             Console.Write(i + " ");
         }
         //Console.ReadKey();
