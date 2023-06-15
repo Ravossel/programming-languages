@@ -12,10 +12,14 @@ int num_1 = int.Parse(Console.ReadLine());
 Console.Write("Введите второе целое число: ");
 int num_2 = int.Parse(Console.ReadLine());
 
-if (num_1 > num_2) {
+if (num_1 > num_2)
+{
     Console.WriteLine($"Число {num_1} больше, чем число {num_2}");
-} else{
-    if (num_1 < num_2) {
-    Console.WriteLine($"Число {num_2} больше, чем число {num_1}");
 }
+else
+{
+    if (num_1 < num_2)
+    {
+        Console.WriteLine($"Число {num_2} больше, чем число {num_1}");
+    }
 }
