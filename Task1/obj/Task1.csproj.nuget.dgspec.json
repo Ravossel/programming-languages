@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\Task1.csproj": {}
+    "c:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\Task1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\Task1.csproj": {
+    "c:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\Task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\Task1.csproj",
+        "projectUniqueName": "c:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\Task1.csproj",
         "projectName": "Task1",
-        "projectPath": "C:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\Task1.csproj",
+        "projectPath": "c:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\Task1.csproj",
         "packagesPath": "C:\\Users\\Анастасия\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\obj\\",
+        "outputPath": "c:\\Users\\Анастасия\\Desktop\\Languages of Programming\\Task1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Анастасия\\AppData\\Roaming\\NuGet\\NuGet.Config"
