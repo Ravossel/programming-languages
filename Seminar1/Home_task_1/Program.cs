@@ -9,7 +9,7 @@ using System;
 class Program {
     static void Main(string[] args)
     {
-        Console.Write("Введите число: ");
+        Console.Write("Введите целое число: ");
         int number = int.Parse(Console.ReadLine());
         int negative_number = number * -1;
 
