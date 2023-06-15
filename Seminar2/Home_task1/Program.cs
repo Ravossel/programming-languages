@@ -5,6 +5,8 @@
 12-> 2
 85 -> 8*/
 
+//Проверили на семинаре
+
 int number = new Random().Next(10, 100);
 Console.WriteLine($"Рандомное число: {number}");
 
