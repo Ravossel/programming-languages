@@ -6,7 +6,7 @@
     return result;
 }
 
-int[] array = {12, 23, 34, 45, 56, 67, 78, 89, 90};
+int[] array = { 12, 23, 34, 45, 56, 67, 78, 89, 90 };
 
 int max = Max(Max(array[0], array[1], array[2]),
                 Max(array[3], array[4], array[5]),
