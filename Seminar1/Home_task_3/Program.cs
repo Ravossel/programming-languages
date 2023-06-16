@@ -5,6 +5,8 @@
 22 3 9 -> 22
 */
 
+
+//Исправила по семинару
 Console.Write("Введите первое целое число: ");
 int num_1 = int.Parse(Console.ReadLine());
 
@@ -14,7 +16,11 @@ int num_2 = int.Parse(Console.ReadLine());
 Console.Write("Введите третье целое число: ");
 int num_3 = int.Parse(Console.ReadLine());
 
-int max = num_1;
+int max = Math.Max(Math.Max(num_1, num_2), num_3);
+
+Console.WriteLine($"Число {max} максимальное");
+
+/*int max = num_1;
 int min_1 = num_2;
 int min_2 = num_3;
 
@@ -39,5 +45,5 @@ else
         max = num_3;
         Console.WriteLine($"Число {max} больше, чем числа {min_1} и {min_2}");
     }
-}
+}*/
 
