@@ -8,27 +8,22 @@ string PrintQuarter (int quarter)
 {
     case 1:
     Console.WriteLine("x > 0; y > 0");
-    return "Hello, world";
     break;
 
     case 2:
     Console.WriteLine("x < 0; y > 0");
-    return "Hello, world";
     break;
 
     case 3:
     Console.WriteLine("x < 0; y < 0");
-    return "Hello, world";
     break;
 
     case 4:
     Console.WriteLine("x > 0; y < 0");
-    return "Hello, world";
     break;
 
     default:
     Console.WriteLine("такой нет");
-    return "Hello, world";
     break;
 
 }
