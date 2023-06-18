@@ -31,6 +31,7 @@ int y2 = int.Parse(Console.ReadLine());
 Console.Write("Введите Z второй точки: ");
 int z2 = int.Parse(Console.ReadLine());
 
+//переменная для округления
 double rounded = GetDistance(x1, y1, z1, x2, y2, z2);
 
 Console.Write(Math.Round(rounded, 2, MidpointRounding.ToNegativeInfinity));
