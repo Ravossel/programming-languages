@@ -5,34 +5,34 @@
 12821 -> да
 23432 -> да*/
 
-void PrintPalindrome (int num)
+void PrintPalindrome(int num)
 {
     if (num > 9999 && num < 100000)
-{
-    int comming = num;
-    int reversed = 0;
-    
-    while (num != 0)
     {
-        int digit = num % 10;
-        reversed = reversed * 10 + digit;
-        num = num / 10;
-        
-    }
-    if (comming == reversed)
-    {
-        Console.Write("палиндром");
+        int comming = num;
+        int reversed = 0;
+
+        while (num != 0)
+        {
+            int digit = num % 10;
+            reversed = reversed * 10 + digit;
+            num = num / 10;
+
+        }
+        if (comming == reversed)
+        {
+            Console.Write("палиндром");
+        }
+        else
+        {
+            Console.Write("не палиндром");
+        }
+
     }
     else
     {
-        Console.Write("не палиндром");
+        Console.Write("Нужно пятизначное число");
     }
-
-}
-else
-{
-Console.Write("Нужно пятизначное число");
-}
 }
 
 
