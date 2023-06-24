@@ -23,7 +23,7 @@ int GetNumbers(int number_positive)
         while (number_positive > 0)
         {
             number_positive = number_positive / 10;
-            count = count + 1;
+            count++;
         }
     }
     return count;
