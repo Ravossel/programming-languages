@@ -5,13 +5,13 @@
 
 int GetPower(int number, int power)
 {
-    int result = number;
+        int result = number;
 
-    for (int i = 1; i < power; i++)
-    {
-        result = result * number;
-    }
-    return result;
+        for (int i = 1; i < power; i++)
+        {
+            result = result * number;
+        }
+        return result;
 }
 
 
