@@ -3,21 +3,29 @@
 // 78 -> 2
 // 89126 -> 5
 
-Console.Write("Введите число: ");
-int number = int.Parse(Console.ReadLine());
 
-int i = 1;
 
 int GetFactorial(int number)
 {
-    while (number > 1)
+    int result = 1;
+    if (number < 1)
     {
-        i = i * number;
-        number = number - 1;
+        Console.WriteLine("Факториал - это множество неотрицательных целых чисел от 1");
+        Environment.Exit(0);
     }
-    return i;
+    else
+    {
+        for (int i = 1; i <= number; i++)
+        {
+            result *= i;
+        }
+    }
+    return result;
 }
 
-// Console.WriteLine(i);
-int result = GetFactorial(number);
-Console.WriteLine($"Факториал равен: {result}");
+
+Console.Write("Введите число: ");
+int number = int.Parse(Console.ReadLine());
+
+
+Console.WriteLine(GetFactorial(number));
