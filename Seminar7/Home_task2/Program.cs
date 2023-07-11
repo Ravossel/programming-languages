@@ -60,9 +60,9 @@ Console.Write("Введите n: ");
 int n = int.Parse(Console.ReadLine());
 
 //Введите координаты
-Console.WriteLine("введите номер строки");
+Console.Write("введите номер строки");
 int a = int.Parse(Console.ReadLine());
-Console.WriteLine("введите номер столбца");
+Console.Write("введите номер столбца");
 int b = int.Parse(Console.ReadLine());
 
 int[,] array = FillArray(m, n);
