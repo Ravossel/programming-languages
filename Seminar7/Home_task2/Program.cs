@@ -18,7 +18,7 @@ int[,] FillArray(int m, int n)
     {
         for (int j = 0; j < n; j++)
         {
-            array[i, j] = i + j;
+            array[i, j] = new Random().Next(100);
         }
     }
     return array;
