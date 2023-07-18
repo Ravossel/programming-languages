@@ -58,7 +58,7 @@ void OrderArrayRows(int[,] array)
     }
 }
 
-// Задайте значения m и n
+// Задайте значения row и column
 Console.Write("Введите кол-во строк: ");
 int row = int.Parse(Console.ReadLine());
 Console.Write("Введите кол-во столбцов: ");
