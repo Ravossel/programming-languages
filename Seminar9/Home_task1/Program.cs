@@ -16,7 +16,7 @@ void PrintNumbers(int n)
 }
 
 
-Console.Write("Введите в число: ");
+Console.Write("Введите число: ");
 int n = int.Parse(Console.ReadLine());
 
 PrintNumbers(n);
