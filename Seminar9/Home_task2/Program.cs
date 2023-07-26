@@ -5,10 +5,20 @@
 
 int GetSum(int m, int n)
 {
+    if (m == n) return n;
+
     int sum = 0;
-    int temp = GetSum(m + 1, n);
-    sum = m + temp;
+    for (int i = m; i <= n; i++)
+    {
+        sum = sum + i;
+    }
     return sum;
+}
+
+int GetRecSum(int m, int n)
+{
+    int temp = m + GetRecSum(m + 1, n);
+    return temp;
 }
 
 
@@ -18,6 +28,6 @@ int m = int.Parse(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int n = int.Parse(Console.ReadLine());
 
-int result = GetSum(m, n);
-Console.WriteLine(result);
+int sum = GetSum(m, n);
+Console.WriteLine(sum);
 
